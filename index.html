@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web de una tienda de discos de vinilos"
+    <title>ViniBenji</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="normalize/normalize.css" as="style">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="shortcut icon" href="img/vinilos.png">
+
+    <!--Prefetch-->
+    <link rel="prefetch" href="discos.html" as="document">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Vini<span class="logo__bold">Benji</span></h1>
+                </a>
+
+                <nav class="nav-bar">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="discos.html" class="navegacion__enlace">Discos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header-texto">
+            <h2 class="no-margin">Encuentra los mejores vinilos aqui</h2>
+            <p class="no-margin"> Integer et nisl convallis nisi fermentum dignissim sed at nisl. Aliquam pharetra elementum ex, in lobortis metus placerat eget.</p>
+        </div>
+    </header>
+
+    <main class="contenedor grid-principal">
+        <div class="contenido-principal">
+            <h2 class="centrar-texto">Nuestro blog</h2>
+            <article class="entradas">
+                <picture>
+                    <source srcset="img/entrada1.webp" type="image/webp">
+                    <img loading="lazy" class="entrada-imagen" src="img/entrada1.jpg" alt="Blog-Entrada1">
+                </picture>
+                <h3 class="no-margin">Ukulele Music</h3>
+                <p class="justificar-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra vestibulum
+                    erat, sagittis
+                    volutpat magna blandit ac. Vivamus pharetra, nunc convallis viverra auctor, diam neque tempus eros,
+                    id ornare ligula velit non diam. Etiam blandit velit ut neque luctus feugiat. Vivamus volutpat
+                    mauris erat, volutpat finibus ante sodales blandit. Nulla commodo, metus pretium sodales rutrum,
+                    nulla sapien dignissim nisi, nec varius dui leo sed justo. Maecenas et posuere mauris. Phasellus
+                    vitae ante vel elit eleifend ornare vitae a sapien. Etiam a diam eu ligula blandit varius.</p>
+                <a href="entrada.html" class="boton boton--entrada">leer entrada</a>
+
+            </article>
+
+            <article class="entradas">
+                <picture>
+                    <source srcset="img/entrada2.webp" type="image/webp">
+                    <img loading="lazy" class="entrada-imagen" src="img/entrada2.jpg" alt="Blog-Entrada2">
+                </picture>
+                <h3 class="no-margin">Mejores discos de la decada</h3>
+                <p class="justificar-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra vestibulum
+                    erat, sagittis
+                    volutpat magna blandit ac. Vivamus pharetra, nunc convallis viverra auctor, diam neque tempus eros,
+                    id ornare ligula velit non diam. Etiam blandit velit ut neque luctus feugiat. Vivamus volutpat
+                    mauris erat, volutpat finibus ante sodales blandit. Nulla commodo, metus pretium sodales rutrum,
+                    nulla sapien dignissim nisi, nec varius dui leo sed justo. Maecenas et posuere mauris. Phasellus
+                    vitae ante vel elit eleifend ornare vitae a sapien. Etiam a diam eu ligula blandit varius.</p>
+                <a href="entrada.html" class="boton boton--entrada">leer entrada</a>
+            </article>
+
+        </div>
+        <aside class="sidebar">
+            <h2 class="centrar-texto">Proximos lanzamientos</h2>
+            <ul class="lanzamientos no-padding">
+                <li class="widget-lanzamiento">
+                    <h4>In Rainbows</h4>
+                    <p class="widget-lanzamiento-label">Precio: <span class="widget-lanzamiento-precio">20$</span></p>
+                    <p class="widget-lanzamiento-label">Numero de canciones: <span
+                            class="widget-lanzamiento-precio">10</span></p>
+                    <a href="#" class="boton boton--lanzamiento">Reservar vinilo</a>
+                </li>
+                <li class="widget-lanzamiento">
+                    <h4>The New Abnormal</h4>
+                    <p class="widget-lanzamiento-label">Precio: <span class="widget-lanzamiento-precio">66$</span></p>
+                    <p class="widget-lanzamiento-label">Numero de canciones: <span
+                            class="widget-lanzamiento-precio">9</span></p>
+                    <a href="#" class="boton boton--lanzamiento">Reservar vinilo</a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+        <div class="barra">
+            <a href="index.html" class="logo">
+                <h1 class="logo__nombre no-margin centrar-texto">Vini<span class="logo__bold">Benji</span></h1>
+            </a>
+
+            <nav class="nav-bar">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="discos.html" class="navegacion__enlace">Discos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
