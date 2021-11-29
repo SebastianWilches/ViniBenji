@@ -299,6 +299,18 @@ img {
     width: 95%;
     padding: 5rem;
 }
+.formularioError{
+    background-color: var(--Secundario4);
+    color: var(--Blanco);
+    padding: 1rem;
+    text-align: center;
+}
+.formularioExito{
+    background-color: var(--Secundario3);
+    color: var(--Blanco);
+    padding: 1rem;
+    text-align: center;
+}
 .campo{
     display: flex;
     margin-bottom: 1rem;
@@ -315,7 +327,6 @@ img {
 .campo__textarea{
     height: 15rem;
 }
-
 
 /*FOOTER*/
 
